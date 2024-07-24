@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-23T19:58:07.312Z",
+    "end": "2024-07-23T19:58:12.027Z",
+    "duration": 4715,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "caa15425-6be8-48a4-979f-5cb133bea7da",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login-correto-home.spec.cy.js",
+      "file": "cypress\\e2e\\login-correto-home.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cb41998f-e72b-4216-9eaf-309b2fec5688",
+          "title": "Visite a página principal do Adopet",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Clique no botão de ícone de mensagem no header e escreva nome e senha válidos na página de login.",
+              "fullTitle": "Visite a página principal do Adopet Clique no botão de ícone de mensagem no header e escreva nome e senha válidos na página de login.",
+              "timedOut": null,
+              "duration": 1964,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('ana@email.com', 'Senha123');",
+              "err": {},
+              "uuid": "d6842759-e890-405b-ab7e-032fc948cf6b",
+              "parentUUID": "cb41998f-e72b-4216-9eaf-309b2fec5688",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d6842759-e890-405b-ab7e-032fc948cf6b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1964,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

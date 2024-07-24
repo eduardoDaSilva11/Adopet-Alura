@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-23T20:16:03.805Z",
+    "end": "2024-07-23T20:16:08.673Z",
+    "duration": 4868,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3a478a6b-9519-4d14-8ce1-4f97dbc8f2d2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\pagina-principal.spec.cy.js",
+      "file": "cypress\\e2e\\pagina-principal.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "684829c4-6182-4fd6-893c-81dbe9a7edec",
+          "title": "Página Principal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o title com o texto “AdoPet” está presente no html.",
+              "fullTitle": "Página Principal Visite a página principal do AdoPet e verifique se o title com o texto “AdoPet” está presente no html.",
+              "timedOut": null,
+              "duration": 663,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'AdoPet');",
+              "err": {},
+              "uuid": "1fd48649-a509-4499-9720-eff763d5928b",
+              "parentUUID": "684829c4-6182-4fd6-893c-81dbe9a7edec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o texto “Quem ama adota!” está presente no html",
+              "fullTitle": "Página Principal Visite a página principal do AdoPet e verifique se o texto “Quem ama adota!” está presente no html",
+              "timedOut": null,
+              "duration": 260,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Quem ama adota!').should('be.visible');",
+              "err": {},
+              "uuid": "ced792de-f21e-42e6-b841-332e7e948c16",
+              "parentUUID": "684829c4-6182-4fd6-893c-81dbe9a7edec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o texto “Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!” está presente no html.",
+              "fullTitle": "Página Principal Visite a página principal do AdoPet e verifique se o texto “Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!” está presente no html.",
+              "timedOut": null,
+              "duration": 345,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!').should('be.visible');",
+              "err": {},
+              "uuid": "8f9a1ccb-ccaf-46bd-b44c-97adb5366e9a",
+              "parentUUID": "684829c4-6182-4fd6-893c-81dbe9a7edec",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1fd48649-a509-4499-9720-eff763d5928b",
+            "ced792de-f21e-42e6-b841-332e7e948c16",
+            "8f9a1ccb-ccaf-46bd-b44c-97adb5366e9a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1268,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
